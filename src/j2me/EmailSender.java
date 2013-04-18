@@ -7,6 +7,7 @@ import java.util.Date;
 import javax.microedition.io.Connector;
 import javax.microedition.io.SocketConnection;
 
+/** Utility for sending an image via SMTP to someone. */
 public class EmailSender {
     //private final String _smtpAddress = "smtp.dnainternet.net";
     private final String _smtpAddress = "localhost";
