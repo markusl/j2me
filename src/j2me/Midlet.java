@@ -1,16 +1,15 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package j2me;
 
+import java.io.IOException;
 import javax.microedition.midlet.*;
 
-/**
- * @author markus
- */
 public class Midlet extends MIDlet {
-
+    private final ReceiveMessage _receive = new ReceiveMessage(new CaptureImageSaveAndSendInEmailAction());
+    
+    Midlet() throws IOException
+    {
+    }
+    
     public void startApp() {
     }
     
