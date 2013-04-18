@@ -20,9 +20,11 @@ Once a normal text-only SMS is received, a capture is made, saved and emailed.
 
 Note: Application does not have any user interface. Due to its nature it is
 meant to be compiled and deployed just once, and left running for months, or even years.
+
 ![Netbeans emulator](/doc/phone.png)
 
 Example email received by "smtp4dev".
+
 ![Example email](/doc/email.png)
 
 Flow Chart
